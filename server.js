@@ -1,4 +1,5 @@
-const createServer = require("fs-remote/createServer");
+//const createServer = require("fs-remote/createServer");
+const createServer = require("./remoteserver");
 
 // createServer returns a net.Server
 const server = createServer();
